@@ -1,7 +1,3 @@
-/**
- * Motor control extension
- */
-//% color=#0fbc11 icon="\uf085" block="Motor"
 namespace motor {
 
     /**
@@ -16,8 +12,8 @@ namespace motor {
         }
 
         // Sweep back from 180 to 0 degrees
-        for (let angle = 180; angle >= 0; angle -= 10) {
-            pins.servoWritePin(AnalogPin.P0, angle)
+        for (let angle2 = 180; angle2 >= 0; angle2 -= 10) {
+            pins.servoWritePin(AnalogPin.P0, angle2)
             basic.pause(100)
         }
     }
